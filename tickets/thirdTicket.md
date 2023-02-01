@@ -15,25 +15,25 @@ Build a simple 3-page client using the wireframes provided.
 ## Wireframes
 
 ### Home Page (Public)
-![Home Page (Public)](./images/home_page_public.jpg)
+![Home Page (Public)](../documents/images/home_page_public.jpg)
 
 ### Home Page (Authenticated)
-![Home Page (Authenticated)](./images/home_page_authenticated.jpg)
+![Home Page (Authenticated)](../documents/images/home_page_authenticated.jpg)
 
 ### Login Page
-![Login Page](./images/login_page.jpg)
+![Login Page](../documents/images/login_page.jpg)
 
 ### Learner Dashboard
-![Learner Dashboard](./images/learner_dashboard.jpg)
+![Learner Dashboard](../documents/images/learner_dashboard.jpg)
 
 ### Reviewer Dashboard
-![Reviewer Dashboard](./images/reviewer_dashboard.jpg)
+![Reviewer Dashboard](../documents/images/reviewer_dashboard.jpg)
 
 ### Learner Assignment View
-![Learner Assignment View](./images/learner_assignment_view.jpg)
+![Learner Assignment View](../documents/images/learner_assignment_view.jpg)
 
 ### Reviewer Assignment View
-![Reviewer Assignment View](./images/reviewer_assignment_view.jpg)
+![Reviewer Assignment View](../documents/images/reviewer_assignment_view.jpg)
 
 # Guidance
 
