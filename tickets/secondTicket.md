@@ -1,12 +1,12 @@
 # Build Sprint 2
 
-To begin work on this ticket, make sure you have finished: 
-1. Getting locally setup. 
-2. Completed the onboarding module on Canvas. 
-3. Review the [composition document](documents/composition_document.md). 
+To begin work on this ticket, make sure you have: 
+1. Finished getting locally setup. 
+2. Finished the onboarding module on Canvas. 
+3. Reviewed the [composition document](documents/composition_document.md). 
 4. Completed Build Sprint 1. 
 
-### Objective
+# Objective
 
 Build the following database tables and endpoints: 
 
@@ -42,7 +42,7 @@ Build the following database tables and endpoints:
 - **Post Assignment**           `/api/assignments`
 
 
-### Guidance
+# Guidance
 
 Your job is to continue work on the LMS by setting up tables and endpoints. 
 
