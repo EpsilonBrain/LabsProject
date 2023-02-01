@@ -8,9 +8,9 @@ To set this project up you will need to clone it to your local computer and make
 - Java JRE and JDK 17+
 
 ### Make sure you are in the root directory...
-- run `docker-compose up`
-- open the project inside intellij
-- run the `BackendApplication`
-- visit `http://localhost:8080/
+1. Run `docker-compose up`
+2. Open the project inside intellij
+3. Run the `BackendApplication`
+4. Visit `http://localhost:8080/
 
 **To get an overview of the actual application proposal you can find the docs [here](documents/composition_document.md)**
