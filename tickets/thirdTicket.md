@@ -1,0 +1,53 @@
+# Build Sprint 1
+
+To begin work on this ticket, make sure you have: 
+1. Finished getting locally setup. 
+2. Completed the onboarding module on Canvas. 
+3. Reviewed the [composition document](documents/composition_document.md). 
+4. Completed Build Sprints 1 and 2. 
+
+# Objective
+
+Build a simple 3-page client using the wireframes provided. 
+
+> For this ticket, pick any 3 pages to build from the wireframs below. 
+
+## Wireframes
+
+### Home Page (Public)
+![Home Page (Public)](./images/home_page_public.jpg)
+
+### Home Page (Authenticated)
+![Home Page (Authenticated)](./images/home_page_authenticated.jpg)
+
+### Login Page
+![Login Page](./images/login_page.jpg)
+
+### Learner Dashboard
+![Learner Dashboard](./images/learner_dashboard.jpg)
+
+### Reviewer Dashboard
+![Reviewer Dashboard](./images/reviewer_dashboard.jpg)
+
+### Learner Assignment View
+![Learner Assignment View](./images/learner_assignment_view.jpg)
+
+### Reviewer Assignment View
+![Reviewer Assignment View](./images/reviewer_assignment_view.jpg)
+
+# Guidance
+
+Your job is create a simple client using React to showcase the endpoints you made previously. You are only required to build any 3 pages from the wireframes above. 
+
+You must: 
+
+1. Follow the guidelines set out by the [composition document](documents/composition_document.md). 
+
+2. Use the tech stack given in that same document.  
+
+# Deliverables 
+
+Submit the following on Canvas: 
+
+- Link to your forked repo with the added code for the landing page
+- Link to a Loom video answering the prompt in the Canvas assignment

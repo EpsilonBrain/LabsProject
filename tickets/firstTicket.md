@@ -1,27 +1,27 @@
 # Build Sprint 1
 
-To begin work on this ticket, make sure you have finished: 
-1. Getting locally setup. 
+To begin work on this ticket, make sure you have: 
+1. Finished getting locally setup. 
 2. Completed the onboarding module on Canvas. 
-3. Review the [composition document](documents/composition_document.md). 
+3. Reviewed the [composition document](documents/composition_document.md). 
 
-### Objective
+# Objective
 
 Deliver the following Domain Objects (Entities / DTO / ENUM):
 
-### User
+## User
 - id : Long
 - cohortStartDate: Date
 - username: String
 - password: String
 - authorities: List<Authority>
 
-### Authority
+## Authority
 - id: Long
 - authority: String
 - user: User
 
-### Assignment
+## Assignment
 - id: Long
 - status: String
 - number: Integer
@@ -31,16 +31,16 @@ Deliver the following Domain Objects (Entities / DTO / ENUM):
 - user: User
 - codeReviewer: User
 
-### DTOs
+## DTOs
 - AssignemntResponseDto
 - AuthCredentialRequest
 
-### Enums
+## Enums
 - AssignmentEnum
 - AssignmentStatusEnum
 - AuthorityEnum
 
-### Guidance
+# Guidance
 
 Your job is to begin work on the LMS by setting up the domain objects shown above. 
 
@@ -50,7 +50,7 @@ You must:
 
 2. Use the tech stack given in that same document.  
 
-## Deliverables 
+# Deliverables 
 
 Submit the following on Canvas: 
 
