@@ -2,7 +2,7 @@
 
 To begin work on this ticket, make sure you have: 
 1. Finished getting locally setup. 
-2. Finished the onboarding module on Canvas. 
+2. Finished the `Onboarding Module` in your course. 
 3. Reviewed the [composition document](documents/composition_document.md). 
 4. Completed Build Sprint 1. 
 
@@ -54,7 +54,7 @@ You must:
 
 ## Deliverables 
 
-Submit the following on Canvas: 
+Submit the following in your course: 
 
 - Link to your forked repo with the added code for the landing page
-- Link to a Loom video answering the prompt in the Canvas assignment
+- Link to a Loom video answering the prompt in the `Submit Your Deliverables` assignment in your course
