@@ -3,7 +3,7 @@
 To begin work on this ticket, make sure you have: 
 1. Finished getting locally setup. 
 2. Completed the `Onboarding Module` in your course. 
-3. Reviewed the [composition document](documents/composition_document.md). 
+3. Reviewed the [composition document](../documents/composition_document.md). 
 
 # Objective
 
@@ -46,7 +46,7 @@ Your job is to begin work on the LMS by setting up the domain objects shown abov
 
 You must: 
 
-1. Follow the guidelines set out by the [composition document](documents/composition_document.md). 
+1. Follow the guidelines set out by the [composition document](../documents/composition_document.md). 
 
 2. Use the tech stack given in that same document.  
 
