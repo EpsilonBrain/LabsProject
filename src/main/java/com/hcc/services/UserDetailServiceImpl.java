@@ -2,8 +2,8 @@ package com.hcc.services;
 
 // import com.hcc.entities.User;
 // import com.hcc.repositories.UserRepository;
-import com.hcc.utils.CustomPasswordEncoder;
-import org.springframework.beans.factory.annotation.Autowired;
+// import com.hcc.utils.CustomPasswordEncoder;
+// import org.springframework.beans.factory.annotation.Autowired;
 // import org.springframework.security.core.userdetails.UserDetails;
 // import org.springframework.security.core.userdetails.UserDetailsService;
 // import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -19,7 +19,7 @@ import java.util.Optional;
 //    @Autowired
 //    CustomPasswordEncoder passwordEncoder;
 
-    @Autowired
+//    @Autowired
     // UserRepository userRepo;
 
  //   @Override
@@ -28,5 +28,5 @@ import java.util.Optional;
 //        user.setUsername(username);
 //        user.setPassword(passwordEncoder.getPasswordEncoder().encode("asdfasdf"));
       //  return userOpt.orElseThrow(() -> new UsernameNotFoundException("Invalid Credentials"));
-    }
-}
+//    }
+//}

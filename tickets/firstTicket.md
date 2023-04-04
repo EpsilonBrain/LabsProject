@@ -44,6 +44,10 @@ Deliver the following Domain Objects (Entities / DTO / ENUM):
 
 Your job is to begin work on the LMS by setting up the domain objects shown above. 
 
+## Subtasks
+- Add User and Assignment Entities
+- Hook Up the many to one relationship
+
 You must: 
 
 1. Follow the guidelines set out by the [composition document](../documents/composition_document.md). 
