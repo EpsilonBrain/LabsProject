@@ -14,7 +14,7 @@ To set this project up you will need to clone it to your local computer and make
 3. Run `docker-compose up`
 4. Open the project inside intellij
 5. Go to the `application.properties` file and follow the instructions to make your dev profile making sure that the url is pointing to the same port as the docker compose file `5550`.
-![delete this file](appproperties.png) 
+   ![copy text](app-properties.png) 
 6. look over the code base and familiarize yourself with [spring boot docs](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/). 
 3. Run the `BackendApplication`
 4. Visit `http://localhost:8080/` or localhost at a port you chose if you changed any ports in the `application-dev.properties` file.
