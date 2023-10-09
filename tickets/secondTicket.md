@@ -311,7 +311,7 @@ public class UserDetailServiceImpl implements UserDetailsService {
 
 ### Add the jwt.secret and filter order to the `application-dev.properties` file
 ```properties   
-jwt.secret = sdQWfgio"$%^&£gjw£rgigh34i12gjwriogj43iotgyerujgergGERTHETHET35yh£hg£%GH£5gh4tyj46uhj46u£$%ethrtyjk567uj4hj4u$hEth345h34tHetH46h34hryHJ$h46h46k68K658jETghwHetJtuKLuilUt67yh$%y5£$£$%£%$^$^1234wewe354
+jwt.secret = wigfjwriofgjweriogfj34itj349t8gerug8934yhtgiuoerhgjeuiofbhjertjklgjIOUJIOUJHUIOYH3453543564FHGFfg
 
 spring.security.filter.order=10
 ```
