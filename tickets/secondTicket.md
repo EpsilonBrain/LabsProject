@@ -8,29 +8,7 @@ To begin work on this ticket, make sure you have:
 
 # Objective
 
-Build the following database tables and endpoints: 
-
-## Database Tables
-
-### users
-- id : number
-- cohort_start_date: date
-- username: varchar
-- password: varchar
-
-### authorities
-- id: number
-- authority: varchar
-- user_id: number
-
-### assignments
-- id: number
-- branch: varchar
-- code_review_video_url: varchar
-- github_url: varchar
-- number: number
-- user_id: number
-- code_reviewer_id: number
+Build the following endpoints: 
 
 ## Restful Endpoints
 
