@@ -20,3 +20,6 @@ public class HelloController {
         return ResponseEntity.ok(greeting);
     }
 }
+//Endpoints go in controllers
+//controllers pass things to service
+//service maybe goes to repository

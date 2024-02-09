@@ -1,21 +1,21 @@
 version: '3'
 
 services:
-  pgdb:
-    image: postgres
-    container_name: pg_server_api0121
+  bloomdbserver:
+    image: postgres:13
+    container_name: bloomdbserver
     ports:
-      - '5550:5432'
+      - '5123:5432'
     environment:
       - POSTGRES_USER=docker
       - POSTGRES_PASSWORD=docker
-      - POSTGRES_DB=api-starter-0121
+      - POSTGRES_DB=testDB
     volumes:
       - ./docker/pg/postgres.conf:/etc/postgresql/postgresql.conf
       - ./data/pg:/var/lib/postgresql/data
     command: postgres -c config_file=/etc/postgresql/postgresql.conf
     networks:
-      - postgres
+      - pgnet
     restart: always
 
   pgadminFp:
@@ -30,9 +30,9 @@ services:
     ports:
       - "${PGADMIN_PORT:-5051}:80"
     networks:
-      - postgres
-    restart: unless-stopped
+      - pgnet
+#    restart: unless-stopped
 
 networks:
-  postgres:
+  pgnet:
     driver: bridge
