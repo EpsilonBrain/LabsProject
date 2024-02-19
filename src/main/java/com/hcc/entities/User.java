@@ -1,5 +1,6 @@
 package com.hcc.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
@@ -19,6 +20,8 @@ public class User implements UserDetails {
     private LocalDate cohortStartDate;
     private String username;
     private String password;
+    @JsonIgnore
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "user")
     private List<Authority> authorities;
 
     public User(LocalDate date, String username, String password, List<Authority> authorities) {

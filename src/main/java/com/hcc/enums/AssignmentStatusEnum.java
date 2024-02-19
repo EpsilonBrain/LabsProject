@@ -5,10 +5,10 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 
 @JsonFormat(shape = JsonFormat.Shape.OBJECT)
 public enum AssignmentStatusEnum {
-    ASSIGNMENT_STATUS_ENUM1(1, "Completed"),
-    ASSIGNMENT_STATUS_ENUM2(2, "In Progress"),
-    ASSIGNMENT_STATUS_ENUM3(3, "In Review");
-
+    PENDING(1, "Pending"),
+    PROGRESS(2, "In Progress"),
+    REVIEW(3, "In Review"),
+    COMPLETED(4, "Completed");
     private int assignmentStatusNum;
     private String assignmentStatus;
 

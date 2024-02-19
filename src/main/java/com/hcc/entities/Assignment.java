@@ -1,17 +1,20 @@
 package com.hcc.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name= "assignments")
 public class Assignment {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String status;
     private Integer number;
     private String githubUrl;
     private String branch;
     private String reviewVideoUrl;
+
+    @ManyToOne(optional = false)
     private User user;
     private User codeReviewer;
 
