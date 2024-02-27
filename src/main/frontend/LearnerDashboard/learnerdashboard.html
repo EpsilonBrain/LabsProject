@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="learnerdashboard.css">
+    <script src="learnerdashboard.js" defer></script>
+    <title>Learner Dashboard</title>
+</head>
+
+<body>
+    <h1>Learner Dashboard</h1>
+    <div class="container" id="submitAndLogout">
+        <button id="submitBtn" type="button" onclick="submitButton()">Submit New Assignment</button>
+        <button id="logout" type="button" onclick="logoutButton()">Logout</button>
+    </div>
+    <div class="container" id="needsRework">
+        <h3>Needs Rework</h3>
+        <div class="assignmentSquare">
+        </div>
+
+        <div class="assignmentSquare"></div>
+
+        <div class="assignmentSquare"></div>
+    </div>
+    <div class="container" id="inReview">
+        <h3>In Review</h3>
+        <div class="assignmentSquare"></div>
+    </div>
+    <div class="container" id="complete">
+        <h3>Complete</h3>
+        <div class="assignmentSquare"></div>
+        <div class="assignmentSquare"></div>
+    </div>
+
+</body>
+
+</html>
